@@ -1,0 +1,185 @@
+{
+  "items": [
+    {
+      "id": "top-001",
+      "name": "Classic White Linen Blouse",
+      "brand": "Everlane",
+      "price": 68,
+      "imageUrl": "https://picsum.photos/seed/blouse1/400/500",
+      "category": "top",
+      "styleTags": ["Minimalist", "Casual"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "bustMin": 34, "bustMax": 42,
+        "waistMin": 26, "waistMax": 36,
+        "sizes": ["XS", "S", "M", "L", "XL"]
+      }
+    },
+    {
+      "id": "top-002",
+      "name": "Silk Cami Top",
+      "brand": "Reformation",
+      "price": 98,
+      "imageUrl": "https://picsum.photos/seed/cami1/400/500",
+      "category": "top",
+      "styleTags": ["Romantic", "Minimalist"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "bustMin": 32, "bustMax": 40,
+        "sizes": ["XS", "S", "M", "L"]
+      }
+    },
+    {
+      "id": "top-003",
+      "name": "Oversized Blazer",
+      "brand": "Zara",
+      "price": 89,
+      "imageUrl": "https://picsum.photos/seed/blazer1/400/500",
+      "category": "top",
+      "styleTags": ["Formal", "Bold"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "bustMin": 36, "bustMax": 44,
+        "sizes": ["XS", "S", "M", "L", "XL"]
+      }
+    },
+    {
+      "id": "bottom-001",
+      "name": "High-Waist Wide Leg Trousers",
+      "brand": "Mango",
+      "price": 59,
+      "imageUrl": "https://picsum.photos/seed/trousers1/400/500",
+      "category": "bottom",
+      "styleTags": ["Minimalist", "Formal"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "waistMin": 24, "waistMax": 34,
+        "hipsMin": 34, "hipsMax": 44,
+        "sizes": ["XS", "S", "M", "L", "XL"]
+      }
+    },
+    {
+      "id": "bottom-002",
+      "name": "Midi Floral Skirt",
+      "brand": "& Other Stories",
+      "price": 79,
+      "imageUrl": "https://picsum.photos/seed/skirt1/400/500",
+      "category": "bottom",
+      "styleTags": ["Romantic", "Casual"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "waistMin": 25, "waistMax": 33,
+        "hipsMin": 35, "hipsMax": 43,
+        "sizes": ["XS", "S", "M", "L"]
+      }
+    },
+    {
+      "id": "dress-001",
+      "name": "Wrap Midi Dress",
+      "brand": "Anthropologie",
+      "price": 128,
+      "imageUrl": "https://picsum.photos/seed/dress1/400/500",
+      "category": "dress",
+      "styleTags": ["Romantic", "Casual"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "bustMin": 33, "bustMax": 41,
+        "waistMin": 25, "waistMax": 33,
+        "hipsMin": 35, "hipsMax": 43,
+        "sizes": ["XS", "S", "M", "L"]
+      }
+    },
+    {
+      "id": "dress-002",
+      "name": "Slip Dress",
+      "brand": "Realisation Par",
+      "price": 175,
+      "imageUrl": "https://picsum.photos/seed/dress2/400/500",
+      "category": "dress",
+      "styleTags": ["Minimalist", "Romantic"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20",
+      "measurements": {
+        "bustMin": 32, "bustMax": 38,
+        "waistMin": 24, "waistMax": 30,
+        "sizes": ["XS", "S", "M", "L"]
+      }
+    },
+    {
+      "id": "shoe-001",
+      "name": "Block Heel Sandals",
+      "brand": "Sam Edelman",
+      "price": 110,
+      "imageUrl": "https://picsum.photos/seed/shoes1/400/400",
+      "category": "shoe",
+      "styleTags": ["Casual", "Romantic"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    },
+    {
+      "id": "shoe-002",
+      "name": "White Leather Sneakers",
+      "brand": "Veja",
+      "price": 150,
+      "imageUrl": "https://picsum.photos/seed/shoes2/400/400",
+      "category": "shoe",
+      "styleTags": ["Casual", "Minimalist"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    },
+    {
+      "id": "shoe-003",
+      "name": "Pointed Toe Kitten Heels",
+      "brand": "Schutz",
+      "price": 138,
+      "imageUrl": "https://picsum.photos/seed/shoes3/400/400",
+      "category": "shoe",
+      "styleTags": ["Formal", "Minimalist"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    },
+    {
+      "id": "acc-001",
+      "name": "Gold Chain Necklace",
+      "brand": "Mejuri",
+      "price": 98,
+      "imageUrl": "https://picsum.photos/seed/necklace1/400/400",
+      "category": "accessory",
+      "styleTags": ["Minimalist", "Romantic"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    },
+    {
+      "id": "acc-002",
+      "name": "Mini Leather Shoulder Bag",
+      "brand": "Coach",
+      "price": 295,
+      "imageUrl": "https://picsum.photos/seed/bag1/400/400",
+      "category": "accessory",
+      "styleTags": ["Formal", "Minimalist"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    },
+    {
+      "id": "acc-003",
+      "name": "Tortoise Shell Sunglasses",
+      "brand": "Warby Parker",
+      "price": 95,
+      "imageUrl": "https://picsum.photos/seed/sunglasses1/400/400",
+      "category": "accessory",
+      "styleTags": ["Casual", "Bold"],
+      "affiliateUrl": "https://amazon.com/?tag=fashionid-20"
+    }
+  ],
+  "outfits": [
+    {
+      "id": "outfit-001",
+      "name": "Weekend Chic",
+      "itemIds": ["top-001", "bottom-002", "shoe-002", "acc-003"]
+    },
+    {
+      "id": "outfit-002",
+      "name": "Office Elegance",
+      "itemIds": ["top-003", "bottom-001", "shoe-003", "acc-002"]
+    },
+    {
+      "id": "outfit-003",
+      "name": "Date Night",
+      "itemIds": ["dress-001", "shoe-001", "acc-001"]
+    }
+  ]
+}

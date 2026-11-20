@@ -34,6 +34,9 @@ export interface Translations {
   tryon_result: string; tryon_save: string; tryon_share: string; tryon_shop: string; tryon_tryAnother: string;
   tryon_permissionNeeded: string; tryon_permissionMsg: string;
   tryon_addClothing: string; tryon_addClothingMsg: string;
+  tryon_noModelPhoto: string; tryon_noModelPhotoMsg: string;
+  tryon_modelPhoto: string; tryon_addModelPhoto: string;
+  tryon_invalidUrl: string; tryon_invalidUrlMsg: string;
   // Size Check
   size_title: string; size_subtitle: string; size_chart: string;
   size_findMySize: string; size_recommendedSize: string; size_yourMeasurements: string;
@@ -95,6 +98,9 @@ const en: Translations = {
   tryon_shop: '🛒 Shop', tryon_tryAnother: 'Try Another Item',
   tryon_permissionNeeded: 'Permission needed', tryon_permissionMsg: 'Please allow photo access.',
   tryon_addClothing: 'Add a clothing item', tryon_addClothingMsg: 'Please paste a product URL or upload a garment photo.',
+  tryon_noModelPhoto: 'Model Photo Required', tryon_noModelPhotoMsg: 'Please add a photo of yourself to try on clothes.',
+  tryon_modelPhoto: 'YOUR PHOTO', tryon_addModelPhoto: 'Add a photo of yourself',
+  tryon_invalidUrl: 'Invalid link', tryon_invalidUrlMsg: 'Please paste a full product link starting with https://',
   size_title: 'SIZE CHECK', size_subtitle: 'Find your perfect fit from any size chart',
   size_chart: 'SIZE CHART (optional — leave blank for standard US)',
   size_findMySize: 'Find My Size →', size_recommendedSize: 'RECOMMENDED SIZE',
@@ -161,6 +167,9 @@ const zhTW: Translations = {
   tryon_shop: '🛒 購買', tryon_tryAnother: '試試其他服裝',
   tryon_permissionNeeded: '需要授權', tryon_permissionMsg: '請允許存取相片。',
   tryon_addClothing: '請新增服裝品項', tryon_addClothingMsg: '請貼上商品連結或上傳服裝照片。',
+  tryon_noModelPhoto: '需要你的照片', tryon_noModelPhotoMsg: '請先新增一張你自己的照片才能試穿。',
+  tryon_modelPhoto: '你的照片', tryon_addModelPhoto: '新增你的照片',
+  tryon_invalidUrl: '連結格式不正確', tryon_invalidUrlMsg: '請貼上以 https:// 開頭的完整商品連結。',
   size_title: '尺碼查詢', size_subtitle: '從任何尺碼表找到你的完美尺碼',
   size_chart: '尺碼表（選填——留空使用美國標準）',
   size_findMySize: '查詢我的尺碼 →', size_recommendedSize: '建議尺碼',
@@ -227,6 +236,9 @@ const zhCN: Translations = {
   tryon_shop: '🛒 购买', tryon_tryAnother: '试试其他服装',
   tryon_permissionNeeded: '需要授权', tryon_permissionMsg: '请允许访问相册。',
   tryon_addClothing: '请添加服装品项', tryon_addClothingMsg: '请粘贴商品链接或上传服装照片。',
+  tryon_noModelPhoto: '需要你的照片', tryon_noModelPhotoMsg: '请先添加一张你自己的照片才能试穿。',
+  tryon_modelPhoto: '你的照片', tryon_addModelPhoto: '添加你的照片',
+  tryon_invalidUrl: '链接格式不正确', tryon_invalidUrlMsg: '请粘贴以 https:// 开头的完整商品链接。',
   size_title: '尺码查询', size_subtitle: '从任何尺码表找到你的完美尺码',
   size_chart: '尺码表（可选——留空使用美国标准）',
   size_findMySize: '查询我的尺码 →', size_recommendedSize: '建议尺码',
@@ -293,6 +305,9 @@ const ko: Translations = {
   tryon_shop: '🛒 구매', tryon_tryAnother: '다른 상품 착용해보기',
   tryon_permissionNeeded: '권한 필요', tryon_permissionMsg: '사진 접근 권한을 허용해주세요.',
   tryon_addClothing: '의류 상품을 추가하세요', tryon_addClothingMsg: '상품 URL을 붙여넣거나 의류 사진을 업로드해주세요.',
+  tryon_noModelPhoto: '본인 사진이 필요합니다', tryon_noModelPhotoMsg: '옷을 입어보려면 먼저 본인 사진을 추가해주세요.',
+  tryon_modelPhoto: '내 사진', tryon_addModelPhoto: '내 사진 추가',
+  tryon_invalidUrl: '잘못된 링크', tryon_invalidUrlMsg: 'https://로 시작하는 전체 상품 링크를 붙여넣어 주세요.',
   size_title: '사이즈 확인', size_subtitle: '어떤 사이즈표에서도 완벽한 핏을 찾아보세요',
   size_chart: '사이즈표 (선택사항—비워두면 미국 표준 적용)',
   size_findMySize: '내 사이즈 찾기 →', size_recommendedSize: '추천 사이즈',
@@ -359,6 +374,9 @@ const ja: Translations = {
   tryon_shop: '🛒 購入', tryon_tryAnother: '別の商品を試着',
   tryon_permissionNeeded: '権限が必要', tryon_permissionMsg: '写真へのアクセスを許可してください。',
   tryon_addClothing: '衣類を追加してください', tryon_addClothingMsg: '商品URLを貼り付けるか、服の写真をアップロードしてください。',
+  tryon_noModelPhoto: 'あなたの写真が必要です', tryon_noModelPhotoMsg: '試着するには、まずご自身の写真を追加してください。',
+  tryon_modelPhoto: 'あなたの写真', tryon_addModelPhoto: '自分の写真を追加',
+  tryon_invalidUrl: 'リンクが正しくありません', tryon_invalidUrlMsg: 'https:// で始まる商品リンクを貼り付けてください。',
   size_title: 'サイズ確認', size_subtitle: 'どのサイズ表からでも完璧なフィットを見つけましょう',
   size_chart: 'サイズ表（任意—空白の場合は米国標準を使用）',
   size_findMySize: 'マイサイズを探す →', size_recommendedSize: 'おすすめサイズ',

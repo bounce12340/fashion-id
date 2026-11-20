@@ -40,9 +40,10 @@ export default function TryOnScreen() {
   async function handleGenerate() {
     if (!modelPhoto) { Alert.alert(t.tryon_noModelPhoto ?? 'Model Photo Required', t.tryon_noModelPhotoMsg ?? 'Please add a photo of yourself to try on clothes.'); return; }
     if (!productUrl && !garmentImage) { Alert.alert(t.tryon_addClothing, t.tryon_addClothingMsg); return; }
+    if (!garmentImage && !isHttpsUrl(productUrl)) { Alert.alert(t.tryon_invalidUrl, t.tryon_invalidUrlMsg); return; }
     setLoading(true); setResult(null);
     try {
-      const garmentInput = garmentImage ?? productUrl;
+      const garmentInput = garmentImage ?? productUrl.trim();
       const outputUrl = await runTryOn(modelPhoto, garmentInput, category);
       setResult(outputUrl);
     } catch (err: any) {
@@ -170,3 +171,8 @@ const styles = StyleSheet.create({
   modelPhotoBtn: { borderWidth: 1, borderColor: Colors.lightGray, borderStyle: 'dashed', borderRadius: 4, height: 140, justifyContent: 'center', alignItems: 'center', marginBottom: 28, overflow: 'hidden' },
   modelPhotoPreview: { width: '100%', height: '100%' },
 });
+
+/** Only forward full https links to the try-on API (no http/file/data/other schemes). */
+function isHttpsUrl(value: string): boolean {
+  return /^https:\/\/[^\s/?#]+\.[^\s/?#]+([/?#]\S*)?$/i.test(value.trim());
+}
